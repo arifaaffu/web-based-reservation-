@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap')
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/home\ bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+}
+
+.left {
+    width: 650px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.left img {
+    width: 100%;
+    position: absolute;
+    left: -100px;
+
+}
+
+.right {
+    width: 750px;
+    min-height: 100vh;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.right .top {
+    width: 600px;
+    font-weight: 300;
+
+}
+.right .top p {
+    font-size: 48px;
+    text-align: right;
+    margin-bottom: 16px;
+}
+.right .top a {
+    display: block;
+    text-align: end;
+    font-size: 32px;
+    color: #ffc901;
+}
+
+.middle img {
+    width: 300px;
+
+}
+
+.bottom p {
+    font-size: 48px;
+}
+
+.bottom p span {
+    color: #ffc901;
+}
+
+.home-footer {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+/* Navbar */
+header {
+    width: 100%;
+    padding: 16px 0;
+    background-color: #555553;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: black;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav .logo img {
+    width: 145px;
+
+}
+nav .logo {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 20px;
+}
+
+.link:hover {
+    color:#ffc901;
+}
+
+/*remove scroll bar and smooth scroll */
+::-webkit-scrollbar {
+    width: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* about us page */
+.about {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/about.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: black;
+    padding: 100px;
+
+}
+
+.about-text, .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-text {
+    width: 600px;
+    flex-direction: column;
+
+}
+.title p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 48px;
+
+}
+
+.title p span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.title, .des {
+    margin-bottom: 68px;
+}
+.des {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2rem;
+    width: 500px;
+}
+
+.about-text a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.about-text a span {
+    color: #ffc901;
+
+}
+
+/* Menu  */
+.menu {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/home\ bg.png);
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    position: relative;
+}
+
+.hand {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 550px;
+
+}
+
+.menu-text {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(55%,10%);
+
+}
+
+.discount p {
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.discount {
+    width: 400px;
+
+}
+
+.discount p span {
+    font-size: 38px;
+
+}
+
+.discount p:last-child {
+    color: #ffc901;
+    font-size: 26px;
+    margin-top: 16px;
+    text-align: center;
+
+}
